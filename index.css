@@ -134,3 +134,17 @@ h2 {
     padding-left: 0px;
     font-size: 14px;
 }
+
+/* ===== caroussel controls ====== */
+
+.carousel-control-next{
+
+    position: absolute;
+    right: -112px;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    left: -112px;
+
+}
