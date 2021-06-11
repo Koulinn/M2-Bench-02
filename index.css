@@ -135,6 +135,10 @@ h2 {
     font-size: 14px;
 }
 
+.mt-myMod{
+    margin-top: 64px;
+}
+
 /* ===== caroussel controls ====== */
 
 .carousel-control-next{
@@ -146,5 +150,35 @@ h2 {
 .carousel-control-prev {
     position: absolute;
     left: -112px;
+
+}
+
+
+/* ===== now sale ===== */
+.now-sale-categories{
+    margin-left: 4rem;
+}
+
+.now-sale-category{
+    margin-left: 2rem;
+}
+
+span.now-sale-category{
+    font-size: 14px;
+
+}
+
+span.now-sale-category.highlighted-text{
+    text-decoration: underline;
+}
+
+.not-highlighted {
+    color: #f4b13d;
+
+}
+
+.banner img:first-child{
+    flex-grow: 1;
+    align-self: stretch;
 
 }
