@@ -188,7 +188,7 @@ span.now-sale-category.highlighted-text{
 .card-rectangle{
     background-color: transparent;
     border-bottom: 1px solid #f4b13d;
-    padding-bottom: 1rem;
+    height: 94px;
 }
 
 .img-banner{
@@ -198,7 +198,6 @@ span.now-sale-category.highlighted-text{
 }
 
 .img-banner-square{
-    width: calc(50% - 2px / 2);
     height: 152px;
 }
 
@@ -208,7 +207,6 @@ span.now-sale-category.highlighted-text{
 }
 
 .img-banner-rectangle{
-    width: calc(50% - 2px / 2);
     height: 306px;
 }
 
@@ -222,4 +220,22 @@ span.now-sale-category.highlighted-text{
     object-fit: cover;
     object-position: center;
     margin: 0px;
+}
+
+
+.img-card-rectangle {
+    height: 76px;
+    object-fit: cover;
+}
+
+.btn-show-more {
+    border-color: #f4b13d;
+    color: #f4b13d;
+    background-color: transparent !important;
+    width: 40%;
+}
+
+.btn-show-more:hover{
+    border-color: #D94969;
+    color: #D94969;
 }
