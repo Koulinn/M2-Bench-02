@@ -182,3 +182,44 @@ span.now-sale-category.highlighted-text{
     align-self: stretch;
 
 }
+
+
+/* ===== Discover games ===== */
+.card-rectangle{
+    background-color: transparent;
+    border-bottom: 1px solid #f4b13d;
+    padding-bottom: 1rem;
+}
+
+.img-banner{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.img-banner-square{
+    width: calc(50% - 2px / 2);
+    height: 152px;
+}
+
+.img-banner-large{
+    width: 100%;
+    height: 460px;
+}
+
+.img-banner-rectangle{
+    width: calc(50% - 2px / 2);
+    height: 306px;
+}
+
+.img-banner-rectangle >img{
+    width: 209px;
+}
+
+.img-banner-square > img, .img-banner-large>img, .img-banner-rectangle >img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0px;
+}
