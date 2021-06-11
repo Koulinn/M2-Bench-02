@@ -3,6 +3,10 @@ body{
     color: white;
 }
 
+h2 {
+    font-size: 1rem;
+}
+
 .highlighted-text{
     font-size: 14px;
     color: #D94969;
@@ -104,6 +108,11 @@ body{
 
 .card-stats{
     margin-bottom: 16px;
+}
+
+.card-myMod-3col-cards{
+    margin-top: 15px;
+
 }
 
 
