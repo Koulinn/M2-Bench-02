@@ -50,7 +50,53 @@ body{
     bottom: -64px;
 }
 
-/* ===== card-deck */
+/* ===== card-deck ===== */
 .card-deck-myMod{
     margin-top: 80px
+}
+
+.card-myMod{
+    background-color: #1d7261;
+    color: white;
+    border: none;
+}
+
+.price-original{
+    font-size: 8px;
+    line-height: 9px;
+    text-decoration: line-through;
+    text-align: end;
+}
+
+.price-current {
+    font-weight: 700;
+    line-height: 12px;
+    font-size: .8rem;
+    margin-left: 8px;
+}
+
+.discount{
+    padding: 9px 8px;
+    align-self:center;
+    background-color: #d94969;
+    border-radius: 2px;
+
+    font-weight: 700;
+    line-height: 12px;
+    font-size: .8rem;
+}
+
+.game-title{
+    font-size: 14px;
+    padding-top: 8px;
+    height: 38px;
+}
+
+.car-img-myMod{
+    height: 112px;
+    object-fit: cover;
+}
+
+.card-stats{
+    margin-bottom: 16px;
 }
