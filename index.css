@@ -2,6 +2,11 @@ body{
     background-color: #1c0d26;
     color: white;
 }
+
+.highlighted-text{
+    font-size: 14px;
+    color: #D94969;
+}
 /* ===== Nav ===== */
 
 .logo{
@@ -99,4 +104,24 @@ body{
 
 .card-stats{
     margin-bottom: 16px;
+}
+
+
+/* ===== between sections ===== */
+.between-section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid #f4b13d;
+    border-bottom: 1px solid #f4b13d;
+    
+}
+
+.side-campain{
+    border-left: 1px solid #f4b13d; 
+}
+
+.text-between-section{
+    margin-top: 1rem;
+    padding-left: 0px;
+    font-size: 14px;
 }
