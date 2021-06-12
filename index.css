@@ -3,6 +3,11 @@ body{
     color: white;
 }
 
+li, a {
+    cursor: pointer;
+
+}
+
 h2 {
     font-size: 1rem;
 }
@@ -426,6 +431,8 @@ span.now-sale-category.highlighted-text{
 .navBar-bottom > li {
     margin-left: 8px;
     margin-right: 8px;
+    cursor: pointer;
+
 }
 
 .navBar-bottom > li:first-child{
@@ -481,12 +488,22 @@ span.now-sale-category.highlighted-text{
     font-size: 12px;
 }
 
+.social-icons > .icon > svg{
+    cursor: pointer;
+}
+
 
 
 /* General mods */
 
 .social-icons > .icon > svg:hover{
     fill:#D94969 !important;
+}
+
+
+.social-icons > .icon{
+    pointer-events: auto;
+
 }
 
 .footer-btn svg:hover, .footer nav li:hover, .footer-btn:hover{
