@@ -69,7 +69,7 @@
                   </li>
 
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle color-prm" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         SIGN IN
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -120,11 +120,11 @@
 
 
 
-    
+
     <div class="container-fluid px-0">
 
 
-
+        <!-- Jumbotron carousel -->
         <div class="container section-title">
             <div class="row border-bottom mb-2 my-4">
                 <div class="d-flex align-items-center mb-2">
@@ -149,12 +149,11 @@
                         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item overlay active">
                             <img src="assets/carousel1.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-flex justify-content-end align-items-center">
-                                <button type="button" class="btn btn-primary badge-myMod">
-                                    <span class="badge badge-light">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                            <div class="carousel-caption d-none d-md-flex justify-content-end align-items-center carousel-btns-order-myMod">
+                                <button class="btn btn-success btn-carousel d-flex align-items-center badge badge-myMod">
+                                    <svg class="mr-2"xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
                                             <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0
                                     0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 
@@ -165,11 +164,16 @@
                                     0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1
                                     0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                                         </svg>
-                                    </span>
-                                    soon
+                                    <div class="badge-text">
+                                        soon
+                                    </div>
                                 </button>
+                                <div class="discount-carousel">
+                                    <span>-73%</span>
+
+                                </div>
                                 <span class="price-carousel">$59.99</span>
-                                <button class="btn btn-success ml-3 btn-carousel d-flex align-items-center">
+                                <button class="btn btn-success ml-3 btn-carousel d-flex align-items-center carousel-btns-order-myMod">
                                     <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
                                         <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 
@@ -182,12 +186,11 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item overlay">
                             <img src="assets/carousel2.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-flex justify-content-end align-items-center">
-                                <button type="button" class="btn btn-primary badge-myMod">
-                                    <span class="badge badge-light">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                            <div class="carousel-caption d-none d-md-flex justify-content-end align-items-center carousel-btns-order-myMod">
+                                <button class="btn btn-success btn-carousel d-flex align-items-center badge badge-myMod">
+                                    <svg class="mr-2"xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
                                             <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0
                                     0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 
@@ -198,9 +201,14 @@
                                     0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1
                                     0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                                         </svg>
-                                    </span>
-                                    soon
+                                    <div class="badge-text">
+                                        soon
+                                    </div>
                                 </button>
+                                <div class="discount-carousel">
+                                    <span>-73%</span>
+
+                                </div>
                                 <span class="price-carousel">$59.99</span>
                                 <button class="btn btn-success ml-3 btn-carousel d-flex align-items-center">
                                     <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -215,12 +223,11 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item overlay">
                             <img src="assets/carousel3.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-flex justify-content-end align-items-center">
-                                <button type="button" class="btn btn-primary badge-myMod">
-                                    <span class="badge badge-light">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                            <div class="carousel-caption d-none d-md-flex justify-content-end align-items-center carousel-btns-order-myMod">
+                                <button class="btn btn-success btn-carousel d-flex align-items-center badge badge-myMod">
+                                    <svg class="mr-2"xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                             fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
                                             <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0
                                     0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 
@@ -231,9 +238,14 @@
                                     0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1
                                     0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                                         </svg>
-                                    </span>
-                                    soon
+                                    <div class="badge-text">
+                                        soon
+                                    </div>
                                 </button>
+                                <div class="discount-carousel">
+                                    <span>-73%</span>
+
+                                </div>
                                 <span class="price-carousel">$59.99</span>
                                 <button class="btn btn-success ml-3 btn-carousel d-flex align-items-center">
                                     <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
