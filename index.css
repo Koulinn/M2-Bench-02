@@ -1,5 +1,5 @@
 body{
-    background-color: #1c0d26;
+    background-color: #361849;
     color: white;
 }
 
@@ -61,6 +61,7 @@ h2 {
 @media (min-width: 991.98px) {
     .nav-menu-order-myMod{
     order: 2;
+    }
 }
 
 .burguer-order-myMod{
@@ -506,7 +507,19 @@ span.now-sale-category.highlighted-text{
     font-size: 1.05rem;
 }
 
-.now-sale-categories span:first-child::after{
+.bottom-line-1::after{
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 3px;
+    left: -4px;
+    top: 35px;
+    background-color: #D94969;
+    border-radius: 16px;
+
+}
+
+.bottom-line-2::after{
     content: '';
     position: absolute;
     width: 110%;
@@ -516,4 +529,31 @@ span.now-sale-category.highlighted-text{
     background-color: #D94969;
     border-radius: 16px;
 
+}
+
+
+
+/* ===== Responsiveness ===== */
+
+@media (max-width: 576px) { 
+
+    .myMod-resp-sm {
+        padding-left: 8px ;
+        padding-right: 16px ;
+    }
+
+    .myMod-resp-sm-margin{
+        margin-left: 16px;
+    }
+
+}
+
+@media (max-width: 992px) { 
+    .myMod-resp-sm-justify-content{
+        justify-content: center !important;
+        display: flex!important;
+    }
+    .myMod-burguer-menu-order{
+        order:1;
+    }
 }
